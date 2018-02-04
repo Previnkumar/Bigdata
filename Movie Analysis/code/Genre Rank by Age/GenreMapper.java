@@ -1,4 +1,4 @@
-package com.movies.genres_Age;
+package com.movieanalysis.genres_Age;
 
 import java.io.IOException;
 
