@@ -9,7 +9,7 @@ To parse the datasets(available at Bigata/Movie Analysis/rawdata),
 
 Build MyMapper.java and MyDriver.java to jar file And execute it in terminal as 
 
-```yarn jar parser.jar org.movieanalysis.parse.MyDriver /rawdata /parsed_data```
+```yarn jar parser.jar com.movieanalysis.parse.MyDriver /rawdata /parsed_data```
 
 where
 
