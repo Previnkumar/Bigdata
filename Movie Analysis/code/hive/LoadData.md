@@ -55,3 +55,19 @@ zipcode int
 row format delimited fields terminated by '|'
 location '/movieparsed/users'
 ```
+
+4) As the tables had created, we need to combine the tables into single table So that we can query easily
+
+```
+create table combined_moviedata as 
+select movies.movieid , movies.title, movies.genre1, movies.genre2, movies.genre3, movies.genre4, 
+users.userid, users.gender, users.age, users.occupation,users.zipcode, 
+ratings.rating, ratings.timestamp 
+from 
+movies join ratings on movies.movieid = ratings.movieid join users on users.userid = ratings.userid;
+```
+
+Now the combined table can be viewed by
+```
+select * from combined_moviedata;
+```
