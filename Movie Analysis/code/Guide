@@ -1,0 +1,18 @@
+Pre-Requisite:
+
+1)Hadoop Installation (Guide available at Bigdata/InstallationGuide)
+2)Hive Installation (Guide available at Bigdata/HiveGuide)
+
+Procedure:
+
+Download the raw data available at MovieAnalysis/rawdata
+The data is available in unparsed(may contain bad records too).
+
+So we need to parse the data to correct form and eliminated bad records
+The code for the same is available at Movie Analysis/code/parse/
+
+Then, we can load data to hive for easily querying
+The code is available inside hive repository (Movie Analysis/code/Hive)
+
+For calculating Average rating of each genre for each age group and each profession
+the code is available at Genre Rank by Age and Genre Rank by Profession repositories
