@@ -1,7 +1,9 @@
 ### Pre-Requisite:
 
 1)Hadoop Installation (Guide available at Bigdata/InstallationGuide)
+
 2)Start the cluster (mentioned in Bigdata/InstallationGuide)
+
 3)Start Hive (mentioned in BigData/hiveGuide)
 
 ### Procedure:
