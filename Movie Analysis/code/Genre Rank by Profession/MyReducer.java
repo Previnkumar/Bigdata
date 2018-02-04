@@ -1,4 +1,4 @@
-package com.movies.genres_profession;
+package com.movieanalysis.genres_profession;
 
 import java.io.IOException;
 import java.text.DecimalFormat;
